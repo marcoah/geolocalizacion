@@ -13,7 +13,8 @@ Está pensado como ejemplo educativo y punto de partida para integrarlo en proye
 
 - Conversión de **direcciones → coordenadas** (geocodificación)
 - Visualización en **mapa interactivo** con [`folium`](https://python-visualization.github.io/folium/)
-- Manejo de **errores y límites** de uso en APIs
+- Se usa NominaTIM como API para resolver la geolocalización
+- Manejo de **límites** de uso en APIs de NominaTIM (1 consulta por seg)
 
 ---
 
@@ -23,6 +24,7 @@ Está pensado como ejemplo educativo y punto de partida para integrarlo en proye
 - **[geopy](https://geopy.readthedocs.io/)**
 - **[pandas](https://pandas.pydata.org/)**
 - **[folium](https://python-visualization.github.io/folium/)**
+- **[NominaTIM](https://nominatim.org/)**
 
 ---
 
